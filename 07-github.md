@@ -34,11 +34,11 @@ world. To this end we are going to create a *remote* repository that will be lin
 ## 1\. Create a remote repository
 
 Log in to [GitHub](https://github.com), then click on the icon in the top right corner to
-create a new repository called `planets`:
+create a new repository called `simple-site`:
 
 ![](fig/github-create-repo-01.png){alt='Creating a Repository on GitHub (Step 1)'}
 
-Name your repository "planets" and then click "Create Repository".
+Name your repository "simple-site" and then click "Create Repository".
 
 Note: Since this repository will be connected to a local repository, it needs to be empty. Leave
 "Initialize this repository with a README" unchecked, and keep "None" as options for both "Add
@@ -55,8 +55,8 @@ information on how to configure your local repository:
 This effectively does the following on GitHub's servers:
 
 ```bash
-$ mkdir planets
-$ cd planets
+$ mkdir simple-site
+$ cd simple-site
 $ git init
 ```
 
@@ -97,11 +97,11 @@ minimum level for GitHub.
 
 ![](fig/github-change-repo-string.png){alt='Changing the Repository URL on GitHub'}
 
-Copy that URL from the browser, go into the local `planets` repository, and run
+Copy that URL from the browser, go into the local `simple-site` repository, and run
 this command:
 
 ```bash
-$ git remote add origin git@github.com:vlad/planets.git
+$ git remote add origin git@github.com:vlad/simple-site.git
 ```
 
 Make sure to use the URL for your repository rather than Vlad's: the only
@@ -118,8 +118,8 @@ $ git remote -v
 ```
 
 ```output
-origin   git@github.com:vlad/planets.git (fetch)
-origin   git@github.com:vlad/planets.git (push)
+origin   git@github.com:vlad/simple-site.git (fetch)
+origin   git@github.com:vlad/simple-site.git (push)
 ```
 
 We'll discuss remotes in more detail in the next episode, while
@@ -309,7 +309,7 @@ Compressing objects: 100% (11/11), done.
 Writing objects: 100% (16/16), 1.45 KiB | 372.00 KiB/s, done.
 Total 16 (delta 2), reused 0 (delta 0)
 remote: Resolving deltas: 100% (2/2), done.
-To https://github.com/vlad/planets.git
+To https://github.com/vlad/simple-site.git
  * [new branch]      main -> main
 ```
 
@@ -386,7 +386,7 @@ $ git pull origin main
 ```
 
 ```output
-From https://github.com/vlad/planets
+From https://github.com/vlad/simple-site
  * branch            main     -> FETCH_HEAD
 Already up-to-date.
 ```
@@ -399,7 +399,7 @@ GitHub, though, this command would download them to our local repository.
 
 ## GitHub GUI
 
-Browse to your `planets` repository on GitHub.
+Browse to your `simple-site` repository on GitHub.
 Underneath the Code button, find and click on the text that says "XX commits" (where "XX" is some number).
 Hover over, and click on, the three buttons to the right of each commit.
 What information can you gather/explore from these buttons?
@@ -516,7 +516,7 @@ remote: Enumerating objects: 3, done.
 remote: Counting objects: 100% (3/3), done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), done.
-From https://github.com/vlad/planets
+From https://github.com/vlad/simple-site
  * branch            main     -> FETCH_HEAD
  * [new branch]      main     -> origin/main
 fatal: refusing to merge unrelated histories
@@ -531,7 +531,7 @@ $ git pull --allow-unrelated-histories origin main
 ```
 
 ```output
-From https://github.com/vlad/planets
+From https://github.com/vlad/simple-site
  * branch            main     -> FETCH_HEAD
 Merge made by the 'recursive' strategy.
 README.md | 1 +
