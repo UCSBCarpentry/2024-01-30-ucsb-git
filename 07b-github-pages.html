@@ -382,13 +382,12 @@ below.</p>
 episode, by default GitHub created a branch called <code>main</code> and
 stored our files there. We now need to tell GitHub Pages that this
 branch contains our website files.</p>
-<div id="what-is-a-branch" class="callout callout">
+<div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="what-is-a-branch" class="callout-inner">
-<h3 class="callout-title">What Is a Branch?<a class="anchor" aria-label="anchor" href="#what-is-a-branch"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="what-is-a-branch">What Is a Branch?<a class="anchor" aria-label="anchor" href="#what-is-a-branch"></a></h3>
 <div class="callout-content">
 <p>You may have never heard about Git branches and wonder what they are.
 A branch is one version of your project (the files in your repository)
@@ -418,14 +417,13 @@ You will know it is ready when the link appears in green box with a
 </ol><figure><img src="fig/website_url_green_tick.png" alt="Project website URL - indication of a successful build" class="figure mx-auto d-block"></figure><ol start="6" style="list-style-type: decimal"><li>Once ready, you should see the contents of the
 <code>README.md</code> file that we created earlier, rendered as a
 website.</li>
-</ol><figure><img src="fig/first_website.png" alt="Our first website rendered by GitHub and showing the contents of README" class="figure mx-auto d-block"></figure><div id="using-branch-gh-pages-for-websites" class="callout callout">
+</ol><figure><img src="fig/first_website.png" alt="Our first website rendered by GitHub and showing the contents of README" class="figure mx-auto d-block"></figure><div id="callout2" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="using-branch-gh-pages-for-websites" class="callout-inner">
-<h3 class="callout-title">Using Branch<code>gh-pages</code>for
-Websites<a class="anchor" aria-label="anchor" href="#using-branch-gh-pages-for-websites"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="using-branch-gh-pages-for-websites">Using Branch <code>gh-pages</code> for
+Websites<a class="anchor" aria-label="anchor" href="#using-branch-gh-pages-for-websites"></a></h3>
 <div class="callout-content">
 <p>By convention, GitHub Pages uses branch called <code>gh-pages</code>
 to look for the website content. By creating a branch with that name,
@@ -456,13 +454,12 @@ is created (GITHUB_USERNAME)</li>
 organisational GitHub account - this naming convention gives us a way of
 neatly creating Web addresses for any GitHub repository without any
 conflicts.</p>
-<div id="customising-domain" class="callout callout">
+<div id="callout3" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="customising-domain" class="callout-inner">
-<h3 class="callout-title">Customising Domain<a class="anchor" aria-label="anchor" href="#customising-domain"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="customising-domain">Customising Domain<a class="anchor" aria-label="anchor" href="#customising-domain"></a></h3>
 <div class="callout-content">
 <p>GitHub Pages supports using custom domains, or changing your site’s
 URL from the default ‘<a href="https://GITHUB_USERNAME.github.io/REPOSITORY_NAME" class="external-link uri">https://GITHUB_USERNAME.github.io/REPOSITORY_NAME</a>’ to
@@ -531,16 +528,16 @@ View the changes on the website.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal"><li>Edit <code>index.md</code> file to look something like:</li>
 </ol><div class="codewrapper sourceCode" id="cb1">
 <h3 class="code-label">MD<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode md" tabindex="0"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Building Websites in GitHub</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">## Description</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>This is an example website built while learning how to use Jekyll and GitHub Pages.</span></code></pre>
+<pre class="sourceCode md" tabindex="0"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="fu"># Building Websites in GitHub</span></span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" tabindex="-1"></a><span class="fu">## Description</span></span>
+<span id="cb1-4"><a href="#cb1-4" tabindex="-1"></a>This is an example website built while learning how to use Jekyll and GitHub Pages.</span></code></pre>
 </div>
 <ol start="2" style="list-style-type: decimal"><li>Go to your website. It should now look like:</li>
 </ol><figure><img src="fig/first_index_page.png" alt="Add 'About' section to index.md file" class="figure mx-auto d-block"></figure></div>
@@ -602,7 +599,7 @@ View the changes on the website.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <ol style="list-style-type: decimal"><li>Create a new file called <code>about.md</code> from the GitHub
 interface:</li>
@@ -610,23 +607,23 @@ interface:</li>
 <div class="codewrapper sourceCode" id="cb2">
 <h3 class="code-label">MD<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode md" tabindex="0"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># About</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">## Project</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>This research project is all about teaching you how to create websites with GitHub pages.</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">## Funders</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>We gratefully acknowledge funding from the XYZ Founding Council, under grant number 'abc'.</span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="fu">## Cite us</span></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>You can cite the project as:</span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; *The Carpentries 2019 Annual Report. Zenodo. https://doi.org/10.5281/zenodo.3840372*</span></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="fu">## Contact us</span></span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Email: <span class="co">[</span><span class="ot">team@carpentries.org</span><span class="co">](mailto:team@carpentries.org)</span></span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Twitter: <span class="co">[</span><span class="ot">@thecarpentries</span><span class="co">](https://twitter.com/thecarpentries)</span></span></code></pre>
+<pre class="sourceCode md" tabindex="0"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="fu"># About</span></span>
+<span id="cb2-2"><a href="#cb2-2" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" tabindex="-1"></a><span class="fu">## Project</span></span>
+<span id="cb2-4"><a href="#cb2-4" tabindex="-1"></a>This research project is all about teaching you how to create websites with GitHub pages.</span>
+<span id="cb2-5"><a href="#cb2-5" tabindex="-1"></a></span>
+<span id="cb2-6"><a href="#cb2-6" tabindex="-1"></a><span class="fu">## Funders</span></span>
+<span id="cb2-7"><a href="#cb2-7" tabindex="-1"></a>We gratefully acknowledge funding from the XYZ Founding Council, under grant number 'abc'.</span>
+<span id="cb2-8"><a href="#cb2-8" tabindex="-1"></a></span>
+<span id="cb2-9"><a href="#cb2-9" tabindex="-1"></a><span class="fu">## Cite us</span></span>
+<span id="cb2-10"><a href="#cb2-10" tabindex="-1"></a>You can cite the project as:</span>
+<span id="cb2-11"><a href="#cb2-11" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" tabindex="-1"></a><span class="at">&gt; *The Carpentries 2019 Annual Report. Zenodo. https://doi.org/10.5281/zenodo.3840372*</span></span>
+<span id="cb2-13"><a href="#cb2-13" tabindex="-1"></a></span>
+<span id="cb2-14"><a href="#cb2-14" tabindex="-1"></a><span class="fu">## Contact us</span></span>
+<span id="cb2-15"><a href="#cb2-15" tabindex="-1"></a></span>
+<span id="cb2-16"><a href="#cb2-16" tabindex="-1"></a><span class="ss">- </span>Email: <span class="co">[</span><span class="ot">team@carpentries.org</span><span class="co">](mailto:team@carpentries.org)</span></span>
+<span id="cb2-17"><a href="#cb2-17" tabindex="-1"></a><span class="ss">- </span>Twitter: <span class="co">[</span><span class="ot">@thecarpentries</span><span class="co">](https://twitter.com/thecarpentries)</span></span></code></pre>
 </div>
 <p>Note how we used various Markdown syntax: quoted text
 (<code>&gt;</code>), italic font (<code>*</code>) and external links (a
@@ -638,13 +635,13 @@ respectively).</p>
 </ol><div class="codewrapper sourceCode" id="cb3">
 <h3 class="code-label">MD<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode md" tabindex="0"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Building Websites in GitHub</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">## Description</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>This is an example website built while learning how to use Jekyll and GitHub Pages.</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>More details about the project are available from the <span class="co">[</span><span class="ot">About page</span><span class="co">](about)</span>.</span></code></pre>
+<pre class="sourceCode md" tabindex="0"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="fu"># Building Websites in GitHub</span></span>
+<span id="cb3-2"><a href="#cb3-2" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" tabindex="-1"></a><span class="fu">## Description</span></span>
+<span id="cb3-4"><a href="#cb3-4" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" tabindex="-1"></a>This is an example website built while learning how to use Jekyll and GitHub Pages.</span>
+<span id="cb3-6"><a href="#cb3-6" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" tabindex="-1"></a>More details about the project are available from the <span class="co">[</span><span class="ot">About page</span><span class="co">](about)</span>.</span></code></pre>
 </div>
 <ol start="3" style="list-style-type: decimal"><li>Go to your website and click the link to ‘About’ page. It should
 look like:</li>
@@ -661,8 +658,8 @@ to access the ‘About’ page directly.</p>
 <div class="codewrapper sourceCode" id="cb4">
 <h3 class="code-label">SH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode sh" tabindex="0"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> nano _config.yml</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> cat _config.yml</span></code></pre>
+<pre class="sourceCode sh" tabindex="0"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a><span class="ex">$</span> nano _config.yml</span>
+<span id="cb4-2"><a href="#cb4-2" tabindex="-1"></a><span class="ex">$</span> cat _config.yml</span></code></pre>
 </div>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -674,8 +671,8 @@ title: YOUR NAME</code></pre>
 <div class="codewrapper sourceCode" id="cb6">
 <h3 class="code-label">SH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode sh" tabindex="0"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-a</span> <span class="at">-m</span> <span class="st">"add site config"</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push origin main</span></code></pre>
+<pre class="sourceCode sh" tabindex="0"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-a</span> <span class="at">-m</span> <span class="st">"add site config"</span></span>
+<span id="cb6-2"><a href="#cb6-2" tabindex="-1"></a><span class="fu">git</span> push origin main</span></code></pre>
 </div>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
@@ -757,7 +754,7 @@ GitHub”</li>
   "identifier": "https://swcarpentry.github.io/git-novice/07b-github-pages.html",
   "dateCreated": "2014-12-04",
   "dateModified": "2024-01-26",
-  "datePublished": "2024-02-27"
+  "datePublished": "2024-03-05"
 }
 
   </script><script>
